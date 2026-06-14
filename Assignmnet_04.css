@@ -1,0 +1,45 @@
+body {
+    background-color: whitesmoke    ;
+}
+h1{
+    text-align: center;
+}
+#parent {
+    background-color: white;
+    width: 800px;
+    height: 600px;
+    padding: 20px;
+    padding-left: 40px;
+    margin-left: 250px;
+
+}
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: rgb(54, 44, 44);
+    border: none;
+}
+#added_student {
+    width: 760px;
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0.216);
+    border: 2px solid rgba(128, 128, 128, 0.216);
+}
+input {
+    width: 760px;
+    height: 30px;
+    background-color: rgba(128, 128, 128, 0.216);
+    border: 2px solid rgba(128, 128, 128, 0.216);
+}
+#btnParent{
+    display: flex;
+    margin-left: 170px;
+}
+.btn{
+    border: 2px solid rgba(128, 128, 128, 0.216);
+}
+.labels{
+    font-weight: bold;
+    font-size: 20px;
+}

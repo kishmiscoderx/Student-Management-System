@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>243077-Kishmis-Assignment-04</title>
+    <link rel="stylesheet" href="Assignmnet_04.css">
+</head>
+<body>
+    <div id="parent">
+        <h1>Student Management System</h1>
+        <p>Enter Student details:</p>
+        <form>
+            <label for="name" class="labels">Name:</label><br><br>
+            <input type="text" id="name" name="name" placeholder="Enter Student Name"><br><br>
+            <label for="age" class="labels">Age:</label><br><br>
+            <input type="text" id="age" name="age" placeholder="Enter Student Age"><br><br>
+            <label for="marks" class="labels">Marks(comma-seperated):</label><br><br>
+            <input type="text" id="marks" name="marks" placeholder="Enter marks (e.g.,85,90,78)"><br><br>
+        </form>
+        <div id="btnParent">
+                <button type="button" class="btn" id="btn1">Add Student</button>
+                <button type="button" class="btn" id="btn2">Display Students</button>
+                <button type="button" class="btn" id="btn3">Calculate Average</button>
+        </div>
+        <h1>Student List</h1>
+        <ul id="added_student">
+            <p id="noStudent">No student added</p>
+        </ul>
+        </div>
+        <script src="Assignment_04.js"></script>
+</body>
+</html>
