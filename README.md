@@ -2,10 +2,6 @@
 
 A Student Management System built using **HTML, CSS, and JavaScript** that allows users to add, manage, and analyze student records efficiently. The application automatically calculates total marks, averages, assigns grades, and provides an interactive interface for managing student data.
 
-## 🌐 Live Demo
-
-🔗 **Live Website:** https://kishmiscoderx.github.io/Student-Management-System/
-
 ## 📸 Preview
 
 ![Student Management System](screenshot.png)
